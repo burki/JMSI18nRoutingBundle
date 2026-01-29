@@ -72,7 +72,7 @@ class I18nRouter extends Router
      */
     public function setRedirectToHost($bool)
     {
-        $this->redirectToHost = (Boolean) $bool;
+        $this->redirectToHost = (bool) $bool;
     }
 
     /**
